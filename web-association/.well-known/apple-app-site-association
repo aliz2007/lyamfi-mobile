@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TEAM_ID.com.lyamfi.app"],
+        "components": [{"/": "/*", "comment": "Lyamfi native deep links"}]
+      }
+    ]
+  }
+}
