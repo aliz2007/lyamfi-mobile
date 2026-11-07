@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_background">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LYAMFI · MARCHÉ" android:textColor="#E7C56B" android:textSize="12sp" android:textStyle="bold" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal" android:gravity="center_vertical">
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MASI" android:textColor="#F5F2EA" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/masi_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="#F5F2EA" android:textSize="22sp" android:textStyle="bold" />
+            <TextView android:id="@+id/masi_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="#55D69E" android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MASI 20" android:textColor="#F5F2EA" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/masi20_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="#F5F2EA" android:textSize="22sp" android:textStyle="bold" />
+            <TextView android:id="@+id/masi20_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="#55D69E" android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/updated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Actualisation…" android:textColor="#9B9A94" android:textSize="11sp" />
+</LinearLayout>

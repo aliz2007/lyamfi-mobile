@@ -1,0 +1,8 @@
+<resources>
+    <string name="widget_market_description">MASI et MASI 20 en direct</string>
+    <string name="widget_movers_description">Plus fortes variations de la Bourse de Casablanca</string>
+    <string name="widget_watchlist_description">Sélection de valeurs marocaines</string>
+    <string name="widget_session_description">Statut de la séance de Casablanca</string>
+    <string name="widget_quick_actions_description">Raccourcis vers Lyamfi</string>
+    <string name="widget_education_description">Conseil d’investissement du jour</string>
+</resources>

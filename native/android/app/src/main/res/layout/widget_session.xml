@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_background" android:gravity="center_vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BOURSE DE CASABLANCA" android:textColor="#E7C56B" android:textSize="12sp" android:textStyle="bold" />
+    <TextView android:id="@+id/session_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Marché fermé" android:textColor="#E7C56B" android:textSize="24sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+    <TextView android:id="@+id/session_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="09:30 – 15:30" android:textColor="#F5F2EA" android:textSize="14sp" android:layout_marginTop="4dp" />
+    <TextView android:id="@+id/session_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="—" android:textColor="#9B9A94" android:textSize="11sp" android:layout_marginTop="8dp" />
+</LinearLayout>

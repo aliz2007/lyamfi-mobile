@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/widget_background">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LYAMFI · ACCÈS RAPIDE" android:textColor="#E7C56B" android:textSize="12sp" android:textStyle="bold" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal" android:gravity="center">
+        <TextView android:id="@+id/action_bourse" style="@style/LyamfiWidgetAction" android:text="Bourse" />
+        <TextView android:id="@+id/action_portfolio" style="@style/LyamfiWidgetAction" android:text="Portefeuille" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal" android:gravity="center">
+        <TextView android:id="@+id/action_academy" style="@style/LyamfiWidgetAction" android:text="Académie" />
+        <TextView android:id="@+id/action_news" style="@style/LyamfiWidgetAction" android:text="Actualités" />
+    </LinearLayout>
+</LinearLayout>

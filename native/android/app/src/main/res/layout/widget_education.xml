@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_background" android:gravity="center_vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LYAMFI · LE RÉFLEXE DU JOUR" android:textColor="#E7C56B" android:textSize="12sp" android:textStyle="bold" />
+    <TextView android:id="@+id/education_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Investir régulièrement lisse le prix d’entrée, mais ne supprime pas le risque." android:textColor="#F5F2EA" android:textSize="16sp" android:lineSpacingExtra="3dp" android:layout_marginTop="10dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ouvrir l’Académie →" android:textColor="#E7C56B" android:textSize="12sp" android:layout_marginTop="10dp" />
+</LinearLayout>
