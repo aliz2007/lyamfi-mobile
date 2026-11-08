@@ -11,7 +11,7 @@ import com.getcapacitor.BridgeActivity;
 
 /** Native entry point: live Lyamfi content, safe deep links and notifications. */
 public class MainActivity extends BridgeActivity {
-    private static final String WEB_ORIGIN = "https://lyamfi.lovable.app";
+    private static final String WEB_ORIGIN = "https://lyamfi.com";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class MainActivity extends BridgeActivity {
         if (route == null && data != null) {
             route = data.getPath();
             if ((route == null || route.isEmpty()) && data.getHost() != null
-                    && !data.getHost().equals("lyamfi.lovable.app")) {
+                    && !data.getHost().equals("lyamfi.com")) {
                 route = "/" + data.getHost();
             }
         }

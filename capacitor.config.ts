@@ -8,9 +8,9 @@ const config: CapacitorConfig = {
   server: {
     // The app is a native shell around the live product. Publishing from
     // Lovable therefore updates the app without another store submission.
-    url: "https://lyamfi.lovable.app",
+    url: "https://lyamfi.com",
     cleartext: false,
-    allowNavigation: ["lyamfi.lovable.app", "*.supabase.co"],
+    allowNavigation: ["lyamfi.com", "*.supabase.co"],
   },
   ios: {
     backgroundColor: "#080807",

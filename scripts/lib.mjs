@@ -1,5 +1,5 @@
 /** Shared pure helpers, also exercised by the package's tests. */
-export const WEB_ORIGIN = "https://lyamfi.lovable.app";
+export const WEB_ORIGIN = "https://lyamfi.com";
 
 export function safeRoute(candidate) {
   if (typeof candidate !== "string") return null;

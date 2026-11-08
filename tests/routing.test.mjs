@@ -7,7 +7,7 @@ test("only known Lyamfi routes can be opened natively", () => {
   assert.equal(safeRoute("/portefeuille?ligue=123"), "/portefeuille?ligue=123");
   assert.equal(safeRoute("https://evil.example"), null);
   assert.equal(safeRoute("/auth?next=https://evil.example"), null);
-  assert.equal(appUrl("/academie"), "https://lyamfi.lovable.app/academie");
+  assert.equal(appUrl("/academie"), "https://lyamfi.com/academie");
 });
 
 test("Casablanca session boundaries and weekends", () => {

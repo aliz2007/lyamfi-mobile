@@ -6,4 +6,4 @@ Account required: only for portfolio, lessons and leagues; public market content
 Demo instructions: create a free account with any email, or provide App Review with a dedicated demo account before submission.
 Native differentiators: six WidgetKit/AppWidget types, lock-screen market status, native deep links and push-notification support.
 Privacy policy: https://github.com/aliz2007/lyamfi-mobile/blob/main/store/PRIVACY.md
-Support URL: https://lyamfi.lovable.app
+Support URL: https://lyamfi.com

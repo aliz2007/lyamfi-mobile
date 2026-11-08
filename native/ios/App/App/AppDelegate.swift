@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func openLyamfi(_ url: URL) -> Bool {
         let path: String
-        if url.scheme == "https", url.host == "lyamfi.lovable.app" {
+        if url.scheme == "https", url.host == "lyamfi.com" {
             path = url.path + (url.query.map { "?" + $0 } ?? "")
         } else if url.scheme == "lyamfi" {
             let hostPath = url.host.map { "/" + $0 } ?? ""
@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         let allowed = #"^/(dashboard|bourse|portefeuille|classement|academie|actualites|simulateurs|macroeconomie)([/?].*)?$"#
         guard path.range(of: allowed, options: .regularExpression) != nil,
-              let target = URL(string: "https://lyamfi.lovable.app" + path),
+              let target = URL(string: "https://lyamfi.com" + path),
               let bridge = window?.rootViewController as? CAPBridgeViewController,
               let webView = bridge.webView else {
             return false

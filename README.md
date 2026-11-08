@@ -1,7 +1,7 @@
 # Lyamfi Mobile
 
 The App Store / Google Play package for **Lyamfi**, built around the live product at
-https://lyamfi.lovable.app.
+https://lyamfi.com.
 
 ## What this package contains
 
@@ -49,7 +49,7 @@ private signing identities; no certificate belongs in a public repository.
    registration and channel code is already present; credentials are not.
 5. Replace `TEAM_ID` and `REPLACE_WITH_RELEASE_SIGNING_SHA256` in
    `web-association/.well-known/`, publish those two files at the same path on
-   `lyamfi.lovable.app`, and universal links will open directly in the app.
+   `lyamfi.com`, and universal links will open directly in the app.
    Custom `lyamfi://` links and widget taps already work without this step.
 6. Add store screenshots and a dedicated demo account for App Review. Listing
    copy and reviewer notes are ready in `store/metadata/`.
